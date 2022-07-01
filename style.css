@@ -45,4 +45,12 @@ body{
     line-height: 1.6;
     color: var(--color-gray-900);
     overflow-x: hidden;
+    background: var(--color-bg);
+    font-size: 0.9rem;
+}
+
+.container{
+    width: var(--container-width-lg);
+    max-width: 1800px;
+    margin: 0 auto;
 }
