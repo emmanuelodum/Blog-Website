@@ -213,3 +213,18 @@ nav button{
     border-radius: var(--card-border-radius-3);
     overflow: hidden;
 }
+
+/* ===============Featured================== */
+.featured{
+    margin-top: 8rem;
+}
+
+.featured__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+}
+
+.featured .post__thumbnail{
+    height: fit-content;
+}
