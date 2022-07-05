@@ -174,7 +174,7 @@ nav button{
 
 /* ===============Category button================== */
 .category__button{
-    background: var(--color-primary-light);
+    background: #F5F1ED;
     color: var(--color-primary);
     display: inline-block;
     padding: 0.5rem 1rem;
@@ -185,5 +185,31 @@ nav button{
 }
 
 .category__button:hover{
-    color: var(--color-white);
+    color: var(--color-red);
+}
+
+/* ===============General post================== */
+.post__thumbnail{
+    border-radius: var(--card-border-radius-5) 0;
+    border: 1rem solid var(--color-gray-900);
+    overflow: hidden;
+    margin-bottom: 1.6rem;
+}
+
+.post:hover .post__thumbnail img{
+    filter: saturate(0);
+    transition: filter 500ms ease;
+}
+
+.post__author{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.post__author-avatar{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: var(--card-border-radius-3);
+    overflow: hidden;
 }
