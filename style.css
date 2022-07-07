@@ -244,3 +244,10 @@ nav button{
     border-top: 2px solid var(--color-gray-900);
     border-bottom: 2px solid var(--color-gray-900);
 }
+
+.category__buttons-container{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
