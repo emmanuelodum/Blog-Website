@@ -294,6 +294,25 @@ footer h4{
     margin-bottom: 0.6rem;
 }
 
+footer ul li{
+    padding: 0.4rem 0;
+}
+
 footer ul a{
     opacity: 0.75;
+}
+
+footer ul a:hover{
+    letter-spacing: 0.2rem ;
+    opacity: 1;
+}
+
+.footer__copyright{
+    text-align: center;
+    color: black;
+    padding: 1.5rem 0;
+    background: hsla(217, 100%, 50%, 1);
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
 }
