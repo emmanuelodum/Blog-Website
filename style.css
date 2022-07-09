@@ -283,3 +283,17 @@ footer{
     background-color: rgb(115, 212, 25);
     transform: rotate(360deg);
 }
+
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer h4{
+    color: var(--color-white);
+    margin-bottom: 0.6rem;
+}
+
+footer ul a{
+    opacity: 0.75;
+}
