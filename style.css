@@ -349,4 +349,19 @@ footer ul a:hover{
         nav button#close__nav-btn{
             display: none;
         }
+
+        .nav__container{
+            position: relative;
+        }
+
+        .nav__items{
+            position: absolute;
+            flex-direction: column;
+            top: 100%;
+            right: 0;
+            width: 12rem;
+            align-items: flex-start;
+            justify-content: center;
+            gap: 0;
+        }
 }
