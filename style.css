@@ -317,3 +317,23 @@ footer ul a:hover{
     background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
     background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
 }
+
+/* ===============Media Queries(Medium Devices)================== */
+@media screen and (max-width: 1024px){
+    /* ===============General================== */
+    .container {
+            width: var(--container-width-md);
+        }
+
+        h2{
+            font-size: 1.6rem;
+        }
+
+        h3{
+            font-size: 1.2rem;
+        }
+
+        h5{
+            font-size: 0.8rem;
+        }
+}
