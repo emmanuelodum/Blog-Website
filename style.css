@@ -336,4 +336,17 @@ footer ul a:hover{
         h5{
             font-size: 0.8rem;
         }
+
+        /* ===============Nav================== */
+        nav button{
+            display: inline-block;
+            font-size: 1.5rem;
+            background: transparent;
+            color: var(--color-white);
+            cursor: pointer;
+        }
+
+        nav button#close__nav-btn{
+            display: none;
+        }
 }
