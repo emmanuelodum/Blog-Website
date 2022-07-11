@@ -388,4 +388,14 @@ footer ul a:hover{
         .nav__profile{
             background: var(--color-gray-900);
         }
+
+        .nav__profile ul{
+            top: 100%;
+            width: 100%;
+        }
+
+        .nav__profile .avatar{
+            margin-left: 2rem;
+            border: 0;
+        }
 }
